@@ -1,0 +1,31 @@
+<div class="jumbotron text-center">
+    <h1>VoIP Self Service Test Center</h1>
+    
+</div>
+
+<div class="container mt-5 px-4 py-4">
+    <mat-card>
+        <mat-card-title>Instruction:</mat-card-title>
+        <mat-card-content>
+            <h1> As we move through this test you will be asked to confirm various details
+                Such as Caller Name, Hearing Ringing and Digits entered. Please answer as best you can. you will need to
+                press <b>START</b>
+                to being this test.
+            </h1>
+        </mat-card-content>
+
+        <div>
+            <h1>Call: 303-218-5650 from your number</h1>
+            <h1>Press <button mat-raised-button color="warn" routerLink='/BasicNetworkBoundTestQuestion'><b>START</b></button> When ready</h1>
+            <h1>Please Enter the VOIP phone number that you would like to test
+        
+        <mat-form-field appearance="fill">
+            <mat-label>Phone Number:</mat-label>
+            <input matInput type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          </mat-form-field>
+        </h1>
+        </div>
+    </mat-card>
+
+  
+</div>

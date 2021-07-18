@@ -1,0 +1,72 @@
+<div class="jumbotron text-center">
+    <h1>VoIP Self Service Test Center</h1>
+
+</div>
+
+<div class="container mt-5 px-4 py-4">
+    <mat-card>
+        <mat-card-title>Basic Network Bound Test Status:</mat-card-title>
+        <mat-card-content>
+            <div class="jumbotron text-center">
+                <h3><b>Line in Ringing</b></h3> 
+                <h3><b>Calling Number - 888-555-1212</b></h3>
+                <h3><b>Caller Name - John Doe</b></h3>  
+            
+            </div>
+            <div>
+               <table class="table table-stripped" text-align="center">
+                   <thead>
+                       <tr>
+                           <th>Test</th>
+                           <th>Status</th>
+                           <th>Notes</th>
+                       </tr>
+                   </thead>
+
+                   <tbody>
+                         <tr>
+                             <td>Codec</td>
+                             <td>PASS</td>
+                             <td>G.711u present</td>
+                         </tr>
+                         <tr>
+                            <td>Privacy</td>
+                            <td>PASS</td>
+                            <td>None found in SIP Header</td>
+                        </tr>
+                        <tr>
+                            <td>Qos</td>
+                            <td>PASS</td>
+                            <td>DSCP of AF31 is valid</td>
+                        </tr>
+
+                        <tr>
+                            <td>pTime/MaxPTime</td>
+                            <td>PASS</td>
+                            <td>pTime value set to 20 ms</td>
+                        </tr>
+
+                        <tr>
+                            <td>DTMF</td>
+                            <td>PASS</td>
+                            <td>Meets rtc2833 standard</td>
+                        </tr>
+
+                        <tr>
+                            <td>Early Media</td>
+                            <td>PASS</td>
+                            <td>SDP is present in first invite</td>
+                        </tr>
+
+                    </tbody>
+               </table>
+            </div>
+        </mat-card-content>
+
+        <div>
+            <button mat-raised-button color="warn" routerLink='/home'> <i class="material-icons">input</i> Home</button>
+        </div>
+    </mat-card>
+
+
+</div>

@@ -1,0 +1,42 @@
+<div class="jumbotron text-center">
+    <h1>VoIP Self Service Test Center</h1>
+
+</div>
+
+<div class="container mt-5 px-4 py-4">
+    <mat-card>
+        <mat-card-title>Basic Network Bound Test Status:</mat-card-title>
+        <mat-card-content>
+            <div class="jumbotron text-center">
+                <h3><b>Line in Ringing</b></h3> 
+                <h3><b>Calling Number - 888-555-1212</b></h3>
+                <h3><b>Caller Name - John Doe</b></h3>  
+            
+            </div>
+            <div>
+                <h1>2-Way Audio Test</h1>
+                <h2>Note: you will be prompted to record a short message. We will then replay the message to confirm two way audio</h2>
+
+                <h3 style="font-weight:bold">Did you hear any audio ?
+                    <mat-radio-group aria-label="Select an option">
+                        <mat-radio-button value="1">Yes </mat-radio-button>
+                        <mat-radio-button value="2">No </mat-radio-button>
+                    </mat-radio-group>
+                </h3>
+
+                <h3 style="font-weight:bold">Was the audio output correct?
+                    <mat-radio-group aria-label="Select an option">
+                        <mat-radio-button value="1">Yes </mat-radio-button>
+                        <mat-radio-button value="2">No </mat-radio-button>
+                    </mat-radio-group>
+                </h3>
+            </div>
+        </mat-card-content>
+
+        <div>
+            <button mat-raised-button color="warn" routerLink='/BasicNetworkBoundTerminatecall'> <i class="material-icons">input</i> Continue</button>
+        </div>
+    </mat-card>
+
+
+</div>
